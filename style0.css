@@ -1,0 +1,249 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+.navbar {
+  background-color: #0e4affea;
+  overflow: hidden;
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+}
+
+.navbar a {
+  /* mengatur a yang berada di dalam navbar */
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-right: 20px;
+  text-decoration: none;
+  transition: background-color 0.3s, color 0.3s;
+}
+.navbar a:hover {
+  /* mengatur hover pada a yang berada di navbar*/
+  background-color: aqua;
+}
+
+.navbar a.active {
+  /* mengatur active pada a yang berada di navbar*/
+  background-color: #ddd;
+  color: black;
+}
+
+.latihan5 header {
+  text-align: center;
+  background-color: #3498db;
+  color: white;
+  padding: 20px 0;
+}
+
+.latihan5 main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.latihan5 section {
+  margin-bottom: 30px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.latihan5 h1 {
+  margin: 0;
+  font-size: 36px;
+}
+
+.latihan5 h3 {
+  margin-top: 0;
+  font-size: 24px;
+  color: #3498db;
+}
+
+.latihan5 p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #444;
+}
+
+.latihan5 ol,
+li {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #444;
+}
+
+/* latihan6 style */
+/* latihan6 style */
+.latihan6 img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 20px auto;
+  display: block;
+}
+
+/* Header Styles */
+.latihan6 h1 {
+  color: #333;
+  text-align: center;
+  margin-top: 30px;
+  font-size: 36px;
+}
+
+/* style header  */
+.latihan6 header {
+  background-color: #3498db;
+}
+
+.latihan6 #judul {
+  color: orange;
+}
+
+/* Class Styles */
+.latihan6 .tengah {
+  text-align: center;
+  color: blue;
+}
+
+.latihan6 h2.tengah {
+  color: pink;
+  font-size: 24px;
+}
+
+/* Multi Selector */
+.latihan6 h3,
+h4 {
+  color: midnightblue;
+}
+
+/* Main Section Styles */
+.latihan6 .main-content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.latihan7 {
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.latihan7 section {
+  margin-bottom: 30px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* style latihan7 */
+.latihan7 .container {
+  max-width: 800px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Gaya untuk tautan dan tombol */
+.latihan7 .custom-link,
+.custom-button {
+  color: white;
+  background-color: #007bff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  margin: 10px;
+}
+
+.latihan7 .custom-link:hover,
+.custom-button:hover {
+  background-color: #0056b3;
+}
+
+.latihan7 .custom-link:active,
+.custom-button:active {
+  background-color: #0040a3;
+}
+
+/* table */
+/* Global Styles */
+/* ... (Your existing styles) ... */
+
+.main-content2 {
+  border-collapse: collapse;
+  width: 100%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: white;
+}
+
+.main-content2 h1 {
+  color: #3498db;
+  font-size: 24px;
+  text-align: center;
+}
+
+table {
+  margin: 0px auto;
+  color: #3498db;
+  font-size: 18px;
+  text-align: center;
+  width: 50%;
+  border-collapse: collapse;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+th,
+td {
+  padding: 12px;
+  text-align: center;
+}
+
+thead {
+  background-color: #81cfe0;
+  color: white;
+}
+
+tr:nth-child(odd) {
+  background-color: #81cfe0;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #b8e0e6;
+  color: white;
+}
+
+tr:hover {
+  background-color: #f5f5f5;
+  color: black;
+}
+
+td:first-child {
+  width: 50px;
+}
